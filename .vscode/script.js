@@ -21,7 +21,7 @@ document.addEventListener('click', (e) => {
   }
 });
  
-// ── SCROLL REVEAL ───────────────────────────────
+//SCROLL REVEAL
 const reveals = document.querySelectorAll('.reveal');
  
 const observer = new IntersectionObserver((entries) => {
