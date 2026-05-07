@@ -1,8 +1,8 @@
-// ═══════════════════════════════════════════════
-//  script.js – Gringo Manutenções
-// ═══════════════════════════════════════════════
- 
-// ── MENU HAMBURGUER ─────────────────────────────
+
+//script.js – Gringo Manutenções
+
+
+//MENU HAMBURGUER
 const hamburger  = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobileMenu');
  
