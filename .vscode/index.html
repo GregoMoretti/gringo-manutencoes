@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gringo Manutenções – Conserto Rápido e Confiável</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <!-- ══ HEADER ══════════════════════════════════ -->
+  <header>
+    <a class="logo" href="#inicio">
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 15.5A3.5 3.5 0 018.5 12 3.5 3.5 0 0112 8.5a3.5 3.5 0 013.5 3.5 3.5 3.5 0 01-3.5 3.5m7.43-2.92c.04-.36.07-.73.07-1.08s-.03-.73-.07-1.08l2.32-1.81c.21-.16.27-.45.13-.69l-2.2-3.81c-.13-.24-.42-.32-.66-.24l-2.74 1.1c-.57-.44-1.18-.8-1.85-1.08l-.42-2.9C14.15 2.18 13.88 2 13.6 2h-4.4c-.28 0-.55.18-.59.44l-.42 2.9c-.67.28-1.28.65-1.85 1.08L3.6 5.33c-.24-.09-.53 0-.66.24L.73 9.38c-.14.23-.07.52.14.68l2.32 1.81C3.15 12.27 3.12 12.63 3.12 13s.03.73.07 1.08L.87 15.9c-.21.16-.27.45-.13.69l2.2 3.81c.13.24.42.32.66.24l2.74-1.1c.57.44 1.18.8 1.85 1.08l.42 2.9c.04.26.31.44.59.44h4.4c.28 0 .55-.18.59-.44l.42-2.9c.67-.28 1.28-.64 1.85-1.08l2.74 1.1c.24.09.53 0 .66-.24l2.2-3.81c.14-.23.07-.52-.13-.68l-2.32-1.81z"/></svg>
+      </div>
+      <div class="logo-text">
+        <span class="logo-name">Gringo Manutenções</span>
+        <span class="logo-sub">Mandirituba – PR</span>
+      </div>
+    </a>
+ 
+    <nav id="desktopNav">
+      <a href="#inicio">Início</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+ 
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+ 
+  <!-- Menu mobile -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#inicio"   onclick="closeMenu()">Início</a>
+    <a href="#servicos" onclick="closeMenu()">Serviços</a>
+    <a href="#sobre"    onclick="closeMenu()">Sobre</a>
+    <a href="#contato"  onclick="closeMenu()">Contato</a>
+  </div>
+ 
+  <!-- ══ HERO ════════════════════════════════════ -->
+  <section class="hero" id="inicio">
+    <div class="hero-badge"><span class="dot"></span> Aberto – Atendimento Rápido</div>
+ 
+    <h1>Conserto <em>rápido</em> e confiável para suas máquinas</h1>
+ 
+    <p>Roçadeiras, motosserras, lavadoras e motores em geral.<br>Serviço honesto, com quem entende do assunto.</p>
+ 
+    <div class="hero-btns">
+      <a href="https://wa.me/5541988864218?text=Olá!%20Gostaria%20de%20um%20orçamento." class="btn btn-whatsapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.554 4.121 1.524 5.855L.057 23.882l6.2-1.624A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.793 9.793 0 01-5.002-1.374l-.358-.214-3.722.975.99-3.622-.234-.373A9.775 9.775 0 012.182 12c0-5.42 4.398-9.818 9.818-9.818 5.42 0 9.818 4.398 9.818 9.818 0 5.42-4.398 9.818-9.818 9.818z"/></svg>
+        Falar no WhatsApp
+      </a>
+      <a href="#servicos" class="btn btn-outline">Ver Serviços</a>
+    </div>
+ 
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">+10</div>
+        <div class="stat-label">Anos de exp.</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">4</div>
+        <div class="stat-label">Especialidades</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Comprometido</div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ══ SERVIÇOS ════════════════════════════════ -->
+  <section class="services" id="servicos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Especialidades</span>
+        <h2 class="section-title">O que a gente conserta</h2>
+        <p class="section-sub">Atendemos roçadeiras, motosserras, lavadoras e motores com qualidade, rapidez e preço justo.</p>
+      </div>
+ 
+      <div class="services-grid">
+ 
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          </div>
+          <h3>Roçadeiras</h3>
+          <p>Manutenção preventiva e corretiva em roçadeiras de todos os tipos e marcas. Troca de linha, carburador e muito mais.</p>
+        </div>
+ 
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24"><path d="M19.07 4.93A10 10 0 115.07 19.07 10 10 0 0119.07 4.93zM12 6v6l4 2-1 2-5-2.5V6z"/></svg>
+          </div>
+          <h3>Motosserras</h3>
+          <p>Afiação, regulagem, troca de correntes e reparos no motor. Sua motosserra de volta à potência total.</p>
+        </div>
+ 
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21L5.71 22l1-2.3A4.49 4.49 0 008 20c4 0 4-2 8-2s4 2 8 2v-2c-4 0-4-2-8-2-1.17 0-1.96.1-2.64.22C14.18 12.77 15.39 10.06 17 8zM9.33 12.17c.6-1.5 1.5-2.77 2.67-3.87V8c0-2.76-2.24-5-5-5a5 5 0 00-3.7 8.36l1.42-1.42A3 3 0 017 7a3 3 0 013 3 3 3 0 01-.67 1.9z"/></svg>
+          </div>
+          <h3>Lavadoras de Pressão</h3>
+          <p>Conserto de bombas, vazamentos, regulagem de pressão e troca de peças. Lavadora nova de novo.</p>
+        </div>
+ 
+        <div class="card reveal">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24"><path d="M7 4v2H4v2H2V4h5zm2.5 2H14l1.5 3-1.5 3H9.5L8 9l1.5-3zM18 4h4v4h-2V6h-3l1 2h-2l-1-2H12.5L11 7V4h7zm-1 8h2v1h2v2h-2v1h-2v-1h-2v-2h2v-1zm-7 4H8l-1-2 1-2h2l1 2-1 2zm-5 0H4l-1-2 1-2h1v4z"/></svg>
+          </div>
+          <h3>Motores em Geral</h3>
+          <p>Reparos em motores a gasolina e diesel para diversas máquinas e equipamentos. Diagnóstico preciso.</p>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ══ SOBRE ════════════════════════════════════ -->
+  <section class="about" id="sobre">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-visual reveal">
+          <div class="about-visual-title">Quem somos</div>
+          <p>A Gringo Manutenções nasceu do gosto genuíno pelo trabalho com máquinas e motores. Localizada em Mandirituba, nossa oficina atende agricultores, jardineiros e qualquer cliente que precise de um conserto rápido e honesto.</p>
+          <ul class="checklist">
+            <li>Orçamento sem compromisso</li>
+            <li>Atendimento pessoal e transparente</li>
+            <li>Serviço com garantia</li>
+            <li>Peças originais e compatíveis</li>
+            <li>Entrega no prazo combinado</li>
+          </ul>
+        </div>
+ 
+        <div class="about-text reveal">
+          <span class="section-tag">Nossa história</span>
+          <h2 class="section-title">Oficina local com coração de verdade</h2>
+          <p>Há mais de uma década, o Gringo cuida das máquinas da região com seriedade e conhecimento técnico. Aqui não tem enrolação: você traz o equipamento, a gente diagnostica, dá o preço justo e devolve funcionando.</p>
+          <p>Somos um comércio familiar, pequeno mas muito comprometido. Cada máquina que sai daqui é tratada como se fosse nossa.</p>
+          <p>Atendemos toda a região de Mandirituba e cidades vizinhas. Pode confiar: seu equipamento está em boas mãos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ══ CONTATO ══════════════════════════════════ -->
+  <section class="contact" id="contato">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Fale conosco</span>
+        <h2 class="section-title">Entre em contato</h2>
+        <p class="section-sub">Mande mensagem pelo WhatsApp ou nos visite na oficina. Estamos prontos para te atender!</p>
+      </div>
+ 
+      <div class="contact-grid">
+ 
+        <div class="contact-card reveal">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.554 4.121 1.524 5.855L.057 23.882l6.2-1.624A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.793 9.793 0 01-5.002-1.374l-.358-.214-3.722.975.99-3.622-.234-.373A9.775 9.775 0 012.182 12c0-5.42 4.398-9.818 9.818-9.818 5.42 0 9.818 4.398 9.818 9.818 0 5.42-4.398 9.818-9.818 9.818z"/></svg>
+          </div>
+          <div>
+            <h4>WhatsApp</h4>
+            <a href="https://wa.me/5541988864218" target="_blank" rel="noopener">(41) 98886-4218</a>
+          </div>
+        </div>
+ 
+        <div class="contact-card reveal">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          </div>
+          <div>
+            <h4>Endereço</h4>
+            <p>Av. Eduardo Leal da Cruz, 54<br>Quatro Pinheiros – Mandirituba, PR</p>
+          </div>
+        </div>
+ 
+        <div class="contact-card reveal">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 01-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 017.8 2zm-.2 2A3.6 3.6 0 004 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 003.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6zm9.65 1.5a1.25 1.25 0 011.25 1.25A1.25 1.25 0 0117.25 8 1.25 1.25 0 0116 6.75a1.25 1.25 0 011.25-1.25zM12 7a5 5 0 110 10A5 5 0 0112 7zm0 2a3 3 0 100 6 3 3 0 000-6z"/></svg>
+          </div>
+          <div>
+            <h4>Instagram</h4>
+            <a href="https://instagram.com/gringo._.manutencoes" target="_blank" rel="noopener">@gringo._.manutencoes</a>
+          </div>
+        </div>
+ 
+        <div class="contact-card reveal">
+          <div class="contact-card-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5z"/></svg>
+          </div>
+          <div>
+            <h4>Horário</h4>
+            <p>Segunda a Sexta: 8h – 18h<br>Sábado: 8h – 12h</p>
+          </div>
+        </div>
+ 
+      </div>
+ 
+      <div class="cta-block reveal">
+        <h3>Pronto para resolver o problema da sua máquina?</h3>
+        <p>Mande uma mensagem agora mesmo e receba um orçamento rápido e sem compromisso.</p>
+        <a href="https://wa.me/5541988864218?text=Olá!%20Gostaria%20de%20um%20orçamento." class="btn-whatsapp-lg" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.554 4.121 1.524 5.855L.057 23.882l6.2-1.624A11.93 11.93 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.793 9.793 0 01-5.002-1.374l-.358-.214-3.722.975.99-3.622-.234-.373A9.775 9.775 0 012.182 12c0-5.42 4.398-9.818 9.818-9.818 5.42 0 9.818 4.398 9.818 9.818 0 5.42-4.398 9.818-9.818 9.818z"/></svg>
+          Chamar no WhatsApp agora
+        </a>
+      </div>
+ 
+    </div>
+  </section>
+ 
+  <!-- ══ FOOTER ═══════════════════════════════════ -->
+  <footer>
+    <strong>Gringo Manutenções</strong><br>
+    Av. Eduardo Leal da Cruz, 54 – Quatro Pinheiros – Mandirituba, PR<br>
+    (41) 98886-4218 &nbsp;|&nbsp; @gringo._.manutencoes<br><br>
+    © 2025 Gringo Manutenções. Todos os direitos reservados.
+  </footer>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
