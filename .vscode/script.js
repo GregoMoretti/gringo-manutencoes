@@ -27,7 +27,7 @@ const reveals = document.querySelectorAll('.reveal');
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry, i) => {
     if (entry.isIntersecting) {
-      // Delay escalonado: cada card aparece um pouquinho depois do anterior
+      // Delay escalonado: cada card aparece um pouquinho depois do anterior!
       setTimeout(() => {
         entry.target.classList.add('visible');
       }, i * 80);
