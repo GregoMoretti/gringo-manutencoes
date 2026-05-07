@@ -38,7 +38,7 @@ const observer = new IntersectionObserver((entries) => {
  
 reveals.forEach(el => observer.observe(el));
  
-// ── HEADER: sombra ao rolar ─────────────────────
+//HEADER: sombra ao rolar
 const header = document.querySelector('header');
  
 window.addEventListener('scroll', () => {
@@ -49,7 +49,7 @@ window.addEventListener('scroll', () => {
   }
 });
  
-// ── SMOOTH SCROLL para links do menu ───────────
+//SMOOTH SCROLL para links do menu
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', (e) => {
     const target = document.querySelector(link.getAttribute('href'));
